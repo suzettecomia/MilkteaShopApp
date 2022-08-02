@@ -1,0 +1,7 @@
+{
+  "name": "MILKTEA",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
