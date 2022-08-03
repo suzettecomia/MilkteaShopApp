@@ -8,6 +8,7 @@ import { CartPageRoutingModule } from './cart-routing.module';
 
 import { CartPage } from './cart.page';
 import { CartItemPageModule } from 'src/app/components/cart-item/cart-item.module';
+import { ButtonPageModule } from 'src/app/components/button/button.module';
 
 @NgModule({
   imports: [
@@ -15,7 +16,8 @@ import { CartItemPageModule } from 'src/app/components/cart-item/cart-item.modul
     FormsModule,
     IonicModule,
     CartPageRoutingModule,
-    CartItemPageModule
+    CartItemPageModule,
+    ButtonPageModule
   ],
   declarations: [CartPage]
 })

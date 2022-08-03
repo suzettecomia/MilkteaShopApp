@@ -1,4 +1,4 @@
-import { Component, Input, OnInit } from '@angular/core';
+import { Component, EventEmitter, Input, Output } from '@angular/core';
 import { CartItem } from 'src/app/models/cart-item.model';
 
 @Component({
@@ -8,14 +8,7 @@ import { CartItem } from 'src/app/models/cart-item.model';
 })
 export class CartItemPage {
 @Input() item: CartItem;
+@Output() increase = new EventEmitter();
+@Output() decrease = new EventEmitter();
 
-constructor(){
-  this.item = {
-    id:1,
-    name: 'RED VELVET',
-    price: 39,
-    image:'assets/images/red_velvet.png',
-    quantity:1
-  };
-}
 }
