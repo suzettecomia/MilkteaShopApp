@@ -1,5 +1,6 @@
-import { Component, Input } from '@angular/core';
+import { Component, EventEmitter, Input, Output } from '@angular/core';
 import { Food } from 'src/app/models/food.model';
+//import { EventEmitter } from 'stream';
 
 @Component({
   selector: 'app-food-card',
@@ -8,5 +9,7 @@ import { Food } from 'src/app/models/food.model';
 })
 export class FoodCardComponent {
 @Input() item: Food;
+
+@Output() clicked = new EventEmitter();
 
 }
