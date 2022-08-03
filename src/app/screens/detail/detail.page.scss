@@ -15,7 +15,7 @@ ion-content{
         }
     }
     .card{
-        height: 75%;
+        height: 77%;
         width: 100%;
         background: #fff;
         position: absolute;
@@ -25,7 +25,7 @@ ion-content{
 
         .image{
             position: absolute;
-            top: -6.5rem;
+            top: -5.5rem;
             width: 50%;
             left: 50%;
             transform: translateX(-50%);
@@ -35,7 +35,7 @@ ion-content{
             display: flex;
             justify-content: space-between;
             align-items: center;
-            margin-bottom: 1.2rem;
+            margin-bottom: .5rem;
             
             h1{
                 font-weight: 700;
@@ -51,6 +51,21 @@ ion-content{
                     margin-right: .1rem;
                 }
 
+            }
+        }
+        .rates{
+            display: flex;
+            align-items: center;
+            margin-bottom: .5rem;
+        }
+        .about{
+            h1{
+                font-weight: 500;
+            }
+            p{
+                font-size: 1rem;
+                line-height: 1.6;
+                color: black;
             }
         }
     }

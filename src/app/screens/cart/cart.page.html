@@ -1,9 +1,9 @@
-<ion-header>
-  <ion-toolbar>
-    <ion-title>cart</ion-title>
-  </ion-toolbar>
-</ion-header>
-
 <ion-content>
+  <h3 class="title" *ngIf="(cartItems$|async).length">{{(cartItems$|async).length}} towards at cart</h3>
+
+  <!--Items in cart-->
+
+  <app-cart-item></app-cart-item>
+
 
 </ion-content>

@@ -8,6 +8,7 @@ import { DetailPageRoutingModule } from './detail-routing.module';
 
 import { DetailPage } from './detail.page';
 import { BadgePageModule } from 'src/app/components/badge/badge.module';
+import { ButtonPageModule } from 'src/app/components/button/button.module';
 
 @NgModule({
   imports: [
@@ -16,6 +17,7 @@ import { BadgePageModule } from 'src/app/components/badge/badge.module';
     IonicModule,
     DetailPageRoutingModule,
     BadgePageModule,
+    ButtonPageModule,
   ],
   declarations: [DetailPage]
 })
