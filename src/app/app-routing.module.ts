@@ -7,14 +7,20 @@ const routes: Routes = [
     redirectTo: 'welcome',
     pathMatch: 'full'
   },
-  {
-    path: 'listing',
-    loadChildren: () => import('./screens/listing/listing.module').then( m => m.ListingPageModule)
-  },
+  
   {
     path: 'welcome',
     loadChildren: () => import('./welcome/welcome.module').then( m => m.WelcomePageModule)
   },
+  {
+    path: 'listing',
+    loadChildren: () => import('./screens/listing/listing.module').then(m=> m.ListingPageModule)
+  },
+  {
+    path: 'detail',
+    loadChildren: () => import('./screens/detail/detail.module').then( m => m.DetailPageModule)
+  },
+ 
 ];
 
 @NgModule({
