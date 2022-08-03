@@ -22,11 +22,11 @@ ion-content{
         bottom: 0;
         border-radius: 3rem 3rem 0 0;
         padding: 1rem;
+        
 
         .image{
             position: absolute;
             top: -5.5rem;
-            width: 50%;
             left: 50%;
             transform: translateX(-50%);
         }
@@ -36,7 +36,6 @@ ion-content{
             justify-content: space-between;
             align-items: center;
             margin-bottom: .5rem;
-            
             h1{
                 font-weight: 700;
                 font-size: 1.5rem;
@@ -44,7 +43,7 @@ ion-content{
             p{
                 font-weight: 700;
                 font-size: 1.5rem;
-                color:rgb(253, 0, 0);
+                color: black;
 
                 sup{
                     font-size: 1rem;
@@ -57,14 +56,16 @@ ion-content{
             display: flex;
             align-items: center;
             margin-bottom: .5rem;
+            width: 50%;
         }
         .about{
             h1{
-                font-weight: 500;
+                font-weight: 700;
+                font-size: 16px;
             }
             p{
-                font-size: 1rem;
-                line-height: 1.6;
+                font-size: 14px;
+                line-height: 1.5;
                 color: black;
             }
         }
