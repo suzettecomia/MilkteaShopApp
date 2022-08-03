@@ -1,32 +1,37 @@
 .card {
     width: 100%;
-    padding: 1.6rem 2rem;
+    padding: 1rem 1em;
     background: #f3f3f3;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
     position: relative;
     border-radius: 2.5rem;
-    margin-bottom: 1.5rem;
+    margin-bottom: .5rem;
+
+    ion-img{
+        width: 50px;
+        height: 50px;
+    }
 
 .card-content {
-    text-align: center;
+    text-align: left;
 
     .title{
         font-weight: 700;
-        font-size: 1.1rem;
+        font-size: 1rem;
         margin-bottom: 0.2rem;
         color: #1d1d1d;
     }
 
     .subtitle {
-        font-size: 1.3rem;
+        font-size: 1rem;
         font-weight: 700;
-        color: #ffb800;
+        color: black;
         margin-top: 0;
 
         sup {
-            font-size: 1rem;;
+            font-size: .5rem;;
             margin-right: 2px;
         }
     }
