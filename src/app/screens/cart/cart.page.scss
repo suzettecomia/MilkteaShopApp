@@ -1,6 +1,7 @@
 ion-content{
-    --padding-top:1.6rem;
-    --padding-end:1.6rem;
+    --padding-top:3.5rem;
+    --padding-start:.5rem;
+    --padding-end:.5rem;
     .title{
         font-weight: 700;
         color:black;
@@ -11,7 +12,8 @@ ion-content{
     app-cart-item{
         display: block;
         width: 100%;
-        padding-left: 1.6rem;
+        padding-left: .5rem;
+        padding-right: .5rem;
     }
     ion-item-sliding{
         margin-bottom: 2rem;
@@ -39,18 +41,21 @@ ion-content{
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        color: blanchedalmond;
+        color: #00a388;
+        margin: auto;
         
         ion-icon{
             font-size: 8rem;
         }
         p{
             font-size: 1.8rem;
+            text-align: center;
         }
     }
     app-button{
         display: block;
-        padding-left: 1.6rem;
+        padding-left: .5rem;
+        align-items: center;
         span{
             margin-left: 10px;
             font-size: 1.5rem;

@@ -1,7 +1,9 @@
 .cart-item{
-    background: #fefae0;
+    background: #fff4f4;
     padding: 1rem 1rem;
     border-radius: 1.5rem;
+    border-style: solid;
+    border-color: bisque;
     display: flex;
     justify-content: space-between;
     width: 100%;
@@ -35,7 +37,7 @@
         font-size: 16px;
         font-weight: 700;
         color: black;
-        margin: 0.5rem 0;
+        text-align: center;
 
         sup{
             font-size: .8rem;
@@ -44,7 +46,7 @@
     }
     }
     .actions{
-        border: 1px solid white;
+        border: none;
         border-radius: 2rem;
         height: 50%;
         .counter{
@@ -59,12 +61,13 @@
         }
         ion-button{
             --border-radius:50px;
-            --background:white;
-            --box-shadow:0px 2px 10px grey;
+            --background:rgb(255, 255, 255);
+            --box-shadow:1px;
             --padding-start:0;
             --padding-end:0;
             --padding-top:0;
             --padding-bottom:0;
+            color:black;
             
             height: 35px;
             width: 35px;

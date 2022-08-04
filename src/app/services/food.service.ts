@@ -55,6 +55,30 @@ export class FoodService {
                 description:
                 'Wintermelon Milk Tea are wintermelon syrup, milk, tea (or water) and ice cubes. Tapioca pearls can also be added to turn the drink into bubble tea.'
             },
+            {
+                id:7,
+                title: 'COLD BREW',
+                price: 45,
+                image:'assets/images/cold_brew.png',
+                description:
+                'Cold brew coffee is simply a concentrate of coffee that is brewed for many hours at room temperature, then poured over ice and diluted with water, milk, or a milk substitute.'
+            },
+            {
+                id:8,
+                title: 'ICED CARAMEL MACCHIATO',
+                price: 50,
+                image:'assets/images/iced_caramel_macchiato.png',
+                description:
+                'Caramel Macchiato is made with vanilla syrup, steamed milk, espresso and caramel sauce. The espresso in poured on top of the milk leaving a dark mark on top of the milk foam.'
+            },
+            {
+                id:9,
+                title: 'ICED LATTE',
+                price: 50,
+                image:'assets/images/iced_latte.png',
+                description:
+                'iced latte is a drink with espresso, milk and optional sweetener.'
+            },
             
         ];
     }

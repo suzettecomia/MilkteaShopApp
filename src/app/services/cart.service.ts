@@ -8,7 +8,14 @@ import {map} from "rxjs/operators";
 })
 export class CartService{
     private items$ = new BehaviorSubject<CartItem[]>([
-
+    {
+        id:1,
+        name: 'RED VELVET',
+        price: 60,
+        image:'assets/images/red_velvet.png',
+        quantity:1
+    }
+        
     ]);
     getCart(){
         return this.items$.asObservable();

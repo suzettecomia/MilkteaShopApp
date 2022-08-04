@@ -1,5 +1,4 @@
 <ion-content>
-  <h3 class="title" *ngIf="(cartItems$|async).length">{{(cartItems$|async).length}} towards at cart</h3>
 
   <!--Items in cart-->
 
@@ -24,7 +23,7 @@
   </div>
 
   <app-button *ngIf="(cartItems$|async).length">
-    Total: <span><sup> P </sup>{{totalAmount$|async|number:'1.2'}}</span>
+    <h3>Total:</h3> <span><sup> ₱ </sup>{{totalAmount$|async|number:'1.2'}}</span>
   </app-button>
 
 </ion-content>
