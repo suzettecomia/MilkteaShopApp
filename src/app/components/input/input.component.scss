@@ -1,17 +1,17 @@
 ion-item {
-    border-radius: 50px;
+    border-radius: 20px;
     height: 55px;
-    box-shadow: 1px 8px 8px 0px rgba(0,0,0, 0.08);
-    --highlight-height: 0px;
+    box-shadow: 0px 0px 0px 0px #ffffff;
 
     ion-input {
         font-size: 18px;
-        --padding-top: 20px;
-        --padding-bottom: 15px;
+        --padding-top: 10px;
+        --padding-bottom: 10px;
         --padding-start: 5px;
-
+        border: 2px solid #00a388;
+        border-radius: 10px;
+        outline: none;
     }
-
     a{
         font-size: 17px;
         letter-spacing: 0.5px;
