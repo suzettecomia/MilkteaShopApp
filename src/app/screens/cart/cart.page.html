@@ -25,6 +25,6 @@
   <p *ngIf="(cartItems$|async).length"> Payment: Gcash</p>
   <p *ngIf="(cartItems$|async).length">Shipping Fee: ₱ 50.00</p>
   <p *ngIf="(cartItems$|async).length">Total: <span> ₱ {{totalAmount$|async|number:'1.2'}}</span></p>
-  <app-button *ngIf="(cartItems$|async).length"><p class="placr-order">PLACE ORDER</p></app-button>
+  <app-button *ngIf="(cartItems$|async).length" routerLink="/confirm-order"><p class="place-order">PLACE ORDER</p></app-button>
 
 </ion-content>

@@ -1,0 +1,33 @@
+ion-content{
+    --padding-top:3.5rem;
+    --padding-start:.5rem;
+    --padding-end:.5rem;
+.confirm{
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #00a388;
+    margin: auto;
+    
+    img{
+        width: 100px;
+        height: 100px;
+    }
+    p{
+        font-size: 1.8rem;
+        text-align: center;
+    }
+}
+ion-button{
+    --background:#00a388;
+    width: 100%;
+    border-radius: 50%;
+    text-transform: initial;
+    font-size: 17px;
+    text-align: center;
+    --background-hover:#005748;
+    --color-activated:#005748;
+  }
+}
