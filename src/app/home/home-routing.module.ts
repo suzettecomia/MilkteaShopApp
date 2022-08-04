@@ -16,6 +16,14 @@ const routes: Routes = [
         loadChildren: () => import('../screens/cart/cart.module').then( m => m.CartPageModule)
       },
       {
+        path: 'useraccount',
+        loadChildren: () => import('../useraccount/useraccount.module').then( m => m.UseraccountPageModule)
+      },
+      {
+        path: 'location-details',
+        loadChildren: () => import('../location-details/location-details.module').then( m => m.LocationDetailsPageModule)
+      },
+      {
         path: '',
         redirectTo:'listing',
         pathMatch:'full'

@@ -18,7 +18,8 @@ const routes: Routes = [
   {
     path: 'detail/:id',
     loadChildren: () => import('./screens/detail/detail.module').then( m => m.DetailPageModule)
-  },  {
+  },
+  {
     path: 'badge',
     loadChildren: () => import('./components/badge/badge.module').then( m => m.BadgePageModule)
   },
