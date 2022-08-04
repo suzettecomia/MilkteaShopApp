@@ -77,7 +77,31 @@ export class FoodService {
                 price: 50,
                 image:'assets/images/iced_latte.png',
                 description:
-                'iced latte is a drink with espresso, milk and optional sweetener.'
+                'Iced latte is a drink with espresso, milk and optional sweetener.'
+            },
+            {
+                id:10,
+                title: 'LYCHEE FRUIT TEA',
+                price: 45,
+                image:'assets/images/lychee.png',
+                description:
+                'Lychee tea is a fruit tea that is scented with a sweet lychee aroma. It can be served with or without sugar.'
+            },
+            {
+                id:11,
+                title: 'MANGO FRUIT TEA',
+                price: 45,
+                image:'assets/images/mango.png',
+                description:
+                'Mango fruit tea is like a creamier version of mango juice! Fruity, sweet & super refreshing, but with a soothing, creamier twist. It can be adjusted to taste, so the sweetness levels can range from slightly to very sweet.'
+            },
+            {
+                id:12,
+                title: 'STRAWBERRY FRUIT TEA',
+                price: 45,
+                image:'assets/images/strawberry.png',
+                description:
+                'Strawberry fruit tea tastes like fresh strawberries with a dash of creaminess from the milk and a subtle tea flavor.'
             },
             
         ];
