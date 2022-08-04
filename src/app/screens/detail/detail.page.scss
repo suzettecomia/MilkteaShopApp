@@ -56,6 +56,12 @@ ion-content{
             align-items: center;
             margin-bottom: .5rem;
             width: 50%;
+            ion-button{
+                --background: #0059ff;
+                color:rgb(255, 255, 255);
+                width: 50%;
+                height: 32px;
+            }
         }
         .about{
             h1{
