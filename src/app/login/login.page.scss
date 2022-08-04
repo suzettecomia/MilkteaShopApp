@@ -1,9 +1,14 @@
 ion-toolbar {
-    --background: #f5f5f3;
+    --background: #ffffff;
+
+    ion-button {
+        text-transform: initial;
+        font-size: 17px;
+    }
 }
 
 ion-content {
-    --background: #f5f5f3;
+    --background: #ffffff;
 
     #header {
         display: flex;
@@ -21,14 +26,24 @@ ion-content {
             width: 125px;
             height: 125px;
             border-radius: 50%;
-            border: 8px solid #ffffff;
+            border: 8px solid #8f5050;
 
         }
     }
 
     #form {
-        margin-top: 15px;
+        margin-top: 155;
         padding-left: 30px;
         padding-right: 30px;
+
+        ion-button {
+            margin-top: 35px;
+            height: 48px;
+            font-size: 18px;
+            text-transform: initial;
+            border-radius: 50px;
+            box-shadow: 1px 8px 8px  0px rgba(0,0,0,0.05);
+            --box-shadow: none;
+        }
     }
 }
