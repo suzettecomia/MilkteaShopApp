@@ -1,0 +1,33 @@
+ion-content{
+    --background:#ffffff;
+    position: relative;
+    .header{
+        height: 77%;
+        width: 100%;
+        background: #fff9d4;
+        position: absolute;
+        bottom: 0;
+        border-radius: 3rem 3rem 0 0;
+        padding: 1rem;
+
+        .image{
+            position: absolute;
+            align-items: center;
+            top: -5.5rem;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+
+    }
+    .user-details{
+            margin-top: 20%;
+            align-items: center;
+            margin-bottom: .5rem;
+         .list-details{
+            margin-top: 50%;
+            align-items: center;
+            margin-bottom: .5rem;
+
+        }
+    }
+}
