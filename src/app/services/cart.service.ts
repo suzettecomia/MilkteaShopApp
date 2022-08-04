@@ -27,7 +27,7 @@ export class CartService{
         return this.items$.pipe(map(items =>{
             let total = 0;
             items.forEach(item =>{
-                total += item.quantity * item.price;
+                total += item.quantity * item.price + 50;
             });
             return total;
         })
