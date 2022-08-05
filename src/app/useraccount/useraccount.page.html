@@ -1,12 +1,12 @@
 <ion-content>
   
-  <div class="header">
    <div class="image">
       <img src="../assets/images/user-img.png"/>
   </div>
   <div class="user-details">
     <h1> Maxpein Moon </h1>
     <h3>Alitagtag, Batangas</h3>
+  </div>
 
 <!---ORDER DETAILS-->
       <div class="orders-details">
@@ -15,14 +15,14 @@
             <ion-card-title>My Orders</ion-card-title>
           </ion-card-header>
           <ion-card-content>
-            <ion-button expand="block"><ion-icon name="wallet"></ion-icon>To Pay</ion-button>
-            <ion-button expand="block"><ion-icon name="cart"></ion-icon>To Ship</ion-button>
-            <ion-button expand="block"><ion-icon name="car"></ion-icon>To Receive</ion-button>
+            <ion-button expand="block" size="small"><ion-icon name="wallet"></ion-icon>To Pay</ion-button>
+            <ion-button expand="block" size="small"><ion-icon name="cart"></ion-icon>To Ship</ion-button>
+            <ion-button expand="block" size="small"><ion-icon name="car"></ion-icon>To Receive</ion-button>
           </ion-card-content>
-        </ion-card></div><br>
-        <ion-button expand="block" color="danger" routerLink="/welcome">Logout</ion-button>
-  </div>
-
-</div>
+        </ion-card>
+      </div>
+      <div class="logout-button">
+        <ion-button expand="block" color="danger" size="small" routerLink="/welcome">Logout</ion-button>
+      </div>
   </ion-content>
   

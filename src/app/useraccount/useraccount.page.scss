@@ -1,26 +1,20 @@
 ion-content{
     --background:#ffffff;
     position: relative;
-    .header{
-        height: 77%;
-        width: 100%;
-        background: #ffffff;
-        position: absolute;
-        bottom: 0;
-        border-radius: 3rem 3rem 0 0;
-
+   
         .image{
             position: absolute;
             align-items: center;
-            top: -5.5rem;
+            top: 1.5rem;
             left: 50%;
             transform: translateX(-50%);
-            
+            img{
+                width:150px
+            }
         }
 
-    }
     .user-details{
-            margin-top: 20%;
+            margin-top: 60%;
             align-items: center;
             margin-bottom: .5rem;
 
@@ -34,23 +28,30 @@ ion-content{
                 text-align:  center;
             }
             }
-            ion-card-title{
-                font-weight: 700;
-            }
-            ion-button{
-                --background:#00a388;
-                width: 100%;
-                border-radius: 50%;
-                text-transform: initial;
-                font-size: 17px;
-                text-align: center;
-                --background-hover:#04c0a1;
-                --color-activated:#00a388;
-                
-                ion-icon{
-                    font-size: 18px;
-                    align-items: center;
+            .orders-details{
+                ion-card-title{
+                    font-weight: 700;
                 }
+                ion-button{
+                    --background:#00a388;
+                    width: 100%;
+                    border-radius: 50%;
+                    text-transform: initial;
+                    font-size: 17px;
+                    text-align: center;
+                    --background-hover:#04c0a1;
+                    --color-activated:#00a388;
+                    
+                    ion-icon{
+                        font-size: 18px;
+                        align-items: center;
+                    }
+
+    }}
+    .logout-button{
+        padding-top: 0;
+        padding-left: 2rem;
+        padding-right: 2rem;
 
     }
 }
