@@ -42,9 +42,9 @@ export class DetailPage implements OnInit {
   }
   async presentToast(){
     const toast = await this.toastCtrl.create({
-      message: 'Food added to cart',
+      message: 'Added to cart!',
       mode:'ios',
-      duration:1000,
+      duration:1500,
       position: 'top',
     })
     toast.present();

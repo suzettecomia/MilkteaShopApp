@@ -1,3 +1,8 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title><b>My Cart</b></ion-title>
+  </ion-toolbar>
+</ion-header>
 <ion-content>
 
   <!--Items in cart-->
@@ -19,12 +24,12 @@
 
   <div class="empty-cart" *ngIf="!(cartItems$|async).length">
     <ion-icon name="cart-outline"></ion-icon>
-    <p>Your cart is empty</p>
+    <p>There are no items in this cart</p>
+    <ion-button expand="block" fill="outline" color="success" shape="round" routerLink="/home">BROWSE</ion-button>
   </div>
-  <p *ngIf="(cartItems$|async).length"> Address: 143 Alitagtag, Batangas</p>
-  <p *ngIf="(cartItems$|async).length"> Payment: Gcash</p>
+
   <p *ngIf="(cartItems$|async).length">Shipping Fee: ₱ 50.00</p>
   <p *ngIf="(cartItems$|async).length">Total: <span> ₱ {{totalAmount$|async|number:'1.2'}}</span></p>
-  <app-button *ngIf="(cartItems$|async).length" routerLink="/confirm-order"><p class="place-order">PLACE ORDER</p></app-button>
+  <app-button *ngIf="(cartItems$|async).length" routerLink="/checkout"><p class="place-order">Checkout</p></app-button>
 
 </ion-content>
